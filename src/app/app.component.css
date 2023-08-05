@@ -19,26 +19,35 @@
 }
 
 .logo-size{
+    font-weight: bold;
     font-size: 24px;
-    color: white;font-family: 'Courier New', Courier, monospace;
+    color: black;font-family: 'Courier New', Courier, monospace;
     animation: ease-in 2s;
+    transition-duration: 0.7s;
+}
+.logo-size:hover{
+    font-size: 24px;
+    color: black;font-family: 'Courier New', Courier, monospace;
+    animation: ease-in 2s;
+    font-size: 29px;
+    transition: 0.7s;
 }
 .nav-link-style{
     font-size:18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 10px;
     color:white;
+    
     border-radius: 10px;
-    transition: 1s;
+    transition: 0.7s;
     
 }
 .nav-link-style:hover{
-    /* background-color: ghostwhite; */
-    background-color: #d9e4f5;
-    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
-    color:black;
-    /* font-weight: bold; */
-    transition-duration: 1s;
+    background-color: rgb(224, 188, 188);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.4s;
     border-radius: 10px;
 }
 ul li{
@@ -46,10 +55,7 @@ ul li{
     animation-fill-mode: forwards;
 }
 button.navbar-toggler{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
-.bg-navbar{
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-}
+

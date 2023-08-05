@@ -9,6 +9,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectsModuleModule } from './modules/projects-module/projects-module.module';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { WorkExperienceComponent } from './components/work-experience/work-exper
     FooterComponent,
     AboutComponent,
     ContactComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ProjectsModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
