@@ -11,7 +11,6 @@ import { ContactComponent } from './components/contact/contact.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectsModuleModule } from './modules/projects-module/projects-module.module';
-
 @NgModule({
   declarations: [
     AppComponent,
