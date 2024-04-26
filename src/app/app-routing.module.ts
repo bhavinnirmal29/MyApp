@@ -5,13 +5,15 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { QualificationsComponent } from './components/qualifications/qualifications.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent,pathMatch:'full'},
   {path:'About',component:AboutComponent},
   {path:'Contact',component:ContactComponent},
   {path:'WorkExperience',component:WorkExperienceComponent},
-  {path:'Projects',component:ProjectsComponent}
+  {path:'Projects',component:ProjectsComponent},
+  {path:'Qualifications',component:QualificationsComponent}
 ];
 
 @NgModule({

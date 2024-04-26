@@ -21,7 +21,9 @@
     background-color: #a09b9b;
     background-image: linear-gradient(315deg, #ebe0e0 0%, #797676 74%);
 }
-
+.icon-pipeline{
+  color: #f5f5f5;
+}
 
 #social {
     margin: 20px 10px;

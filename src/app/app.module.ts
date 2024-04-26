@@ -11,6 +11,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { WorkExperienceComponent } from './components/work-experience/work-experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectsModuleModule } from './modules/projects-module/projects-module.module';
+import { QualificationsComponent } from './components/qualifications/qualifications.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { ProjectsModuleModule } from './modules/projects-module/projects-module.
     AboutComponent,
     ContactComponent,
     WorkExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    QualificationsComponent
   ],
   imports: [
     BrowserModule,
