@@ -21,41 +21,53 @@
 .logo-size{
     font-weight: bold;
     font-size: 24px;
-    color: black;font-family: 'Courier New', Courier, monospace;
+    color: white;font-family: 'Courier New', Courier, monospace;
     animation: ease-in 2s;
     transition-duration: 0.7s;
 }
 .logo-size:hover{
     font-size: 24px;
-    color: black;font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
     animation: ease-in 2s;
     font-size: 29px;
     transition: 0.7s;
 }
-.nav-link-style{
+.nav-link{
     font-size:18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 10px;
-    color:white;
-    
     border-radius: 10px;
     transition: 0.7s;
     
 }
-.nav-link-style:hover{
-    background-color: rgb(224, 188, 188);
+.nav-link:hover{
+    background-color: black;
     color: white;
     font-size: 20px;
     font-weight: bold;
     transition-duration: 0.4s;
     border-radius: 10px;
+  
+}
+.navbar{
+    height:12vh;
 }
 ul li{
     animation: ease-in 2s;
     animation-fill-mode: forwards;
+    
 }
 button.navbar-toggler{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
+
+.body {
+    background-image: url('../assets/images/ProfileImage.jpeg');
+    background-size: cover;
+    background-position: center;
+    /* Add any other background styles you need */
+  }
+
 

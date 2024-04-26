@@ -12,6 +12,8 @@ import { WorkExperienceComponent } from './components/work-experience/work-exper
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectsModuleModule } from './modules/projects-module/projects-module.module';
 import { QualificationsComponent } from './components/qualifications/qualifications.component';
+import { LoaderComponent } from './components/loader/loader.component';
+import { SkillsComponent } from './components/skills/skills.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { QualificationsComponent } from './components/qualifications/qualificati
     ContactComponent,
     WorkExperienceComponent,
     ProjectsComponent,
-    QualificationsComponent
+    QualificationsComponent,
+    LoaderComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

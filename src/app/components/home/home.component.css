@@ -82,3 +82,38 @@
   #profile-card {
     animation: slideIn 1s ease-in-out forwards;
   }
+
+  .container {
+    padding: 50px 0;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "\2022";
+    color: #17a2b8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+  }
