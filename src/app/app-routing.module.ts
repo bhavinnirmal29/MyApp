@@ -7,6 +7,7 @@ import { WorkExperienceComponent } from './components/work-experience/work-exper
 import { ProjectsComponent } from './components/projects/projects.component';
 import { QualificationsComponent } from './components/qualifications/qualifications.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 const routes: Routes = [
   {path:'',component:HomeComponent,pathMatch:'full'},
@@ -18,10 +19,14 @@ const routes: Routes = [
   {path:'Skills',component:SkillsComponent}
 ];
 
+// @NgModule({
+//   imports: [RouterModule.forRoot(routes)],
+//   exports: [RouterModule]
+// })
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }]
 })
-
-
 export class AppRoutingModule { }
