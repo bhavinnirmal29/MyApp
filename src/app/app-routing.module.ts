@@ -19,14 +19,10 @@ const routes: Routes = [
   {path:'Skills',component:SkillsComponent}
 ];
 
-// @NgModule({
-//   imports: [RouterModule.forRoot(routes)],
-//   exports: [RouterModule]
-// })
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }]
+  exports: [RouterModule]
 })
+
+
 export class AppRoutingModule { }
