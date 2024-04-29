@@ -1,13 +1,13 @@
-<div class="container" style="margin-top:100px;">
+<div class="container-fluid" style="margin-top:100px;">
     <div class="card bg-dark text-white rounded shadow-lg hover-effect">
         <div class="card-body">
-          <h1 class="display-4">Programming Skills</h1>
+          <h1 class="display-7 text-center">Programming Skills</h1>
         </div>
       </div>
   <div class="row">
     <ng-container *ngFor="let skill of prog_skills; let last = last">
-      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-        <div class="card rounded mb-3">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <div class="card rounded mb-2">
           <div class="card-body gradient-bg">
             <i class="{{ skill.icon }}" style="font-size: 80px;"></i>
             <br/>
@@ -27,7 +27,7 @@
   </div>
 <div class="row">
 <ng-container *ngFor="let fw of frameworks; let last = last">
-  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
     <div class="card rounded mb-3">
       <div class="card-body gradient-bg">
         <i class="{{ fw.icon }}" style="font-size: 80px;"></i>
@@ -43,7 +43,7 @@
 
 <div class="card bg-dark text-white rounded shadow-lg hover-effect">
     <div class="card-body">
-      <h1 class="display-4">Databases</h1>
+      <h1 class="display-7 text-center">Databases</h1>
     </div>
   </div>
 <div class="row">
@@ -53,6 +53,27 @@
       <div class="card-body gradient-bg">
         <i class="{{ db.icon }}" style="font-size: 80px;"></i>
         <br><span>{{db.name}}</span>
+      </div>
+    </div>
+  </div>
+  <!-- Add ngIf condition to exit loop after the last iteration -->
+  <div *ngIf="last"></div>
+</ng-container>
+</div>
+
+<div class="card bg-dark text-white rounded shadow-lg hover-effect">
+    <div class="card-body">
+      <h1 class="display-7 text-center">Microsoft & Other Skills</h1>
+    </div>
+  </div>
+<div class="row">
+<ng-container *ngFor="let skill of tech_skills; let last = last">
+  <div class="col-lg-1 col-md-4 col-sm-6 col-xs-12">
+    <div class="card rounded mb-2">
+      <div class="card-body gradient-bg">
+        <i class="{{ skill.icon }}" style="font-size: 50px;"></i>
+        <br/>
+        <span>{{ skill.name }}</span>
       </div>
     </div>
   </div>
