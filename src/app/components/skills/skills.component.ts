@@ -7,15 +7,42 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   prog_skills=[
-    {"icon": "devicon-python-plain-wordmark colored"},
-    {"icon": "devicon-c-plain-wordmark colored"},
-    {"icon": "devicon-cplusplus-plain-wordmark colored"},
-    {"icon": "devicon-java-plain-wordmark colored"},
-    {"icon": "devicon-kotlin-plain-wordmark colored"},
-    {"icon": "devicon-go-plain-wordmark colored"},
-    {"icon": "devicon-php-plain colored"},
-    {"icon": "devicon-csharp-plain colored"},
-    {"icon": "devicon-javascript-plain colored"},
+    {
+      "icon": "devicon-python-plain-wordmark colored",
+      "name":"Python"
+    },
+    {
+      "icon": "devicon-c-plain-wordmark colored",
+      "name":"C Programming Language"
+    },
+    {
+      "icon": "devicon-cplusplus-plain-wordmark colored",
+      "name":"C++ Programming Language"
+    },
+    {
+      "icon": "devicon-java-plain-wordmark colored",
+      "name":"Java"
+    },
+    {
+      "icon": "devicon-kotlin-plain-wordmark colored",
+      "name":"Kotlin"
+    },
+    {
+      "icon": "devicon-go-plain-wordmark colored",
+      "name": "GoLang"
+    },
+    {
+      "icon": "devicon-php-plain colored",
+      "name": "Php"
+    },
+    {
+      "icon": "devicon-csharp-plain colored",
+      "name": ".Net (C#)"
+    },
+    {
+      "icon": "devicon-javascript-plain colored",
+      "name": "JavaScript"
+    }
   ];
   frameworks = [
     {
@@ -52,7 +79,7 @@ export class SkillsComponent {
   database = [
     {
       "name":"Oracle SQL",
-      "icon": "devicon-oracle-original"
+      "icon": "devicon-oracle-original colored"
     },
     {
       "name":"MySQL",
@@ -60,7 +87,7 @@ export class SkillsComponent {
     },
     {
       "name":"SQL Server",
-      "icon": "devicon-microsoftsqlserver-plain"
+      "icon": "devicon-microsoftsqlserver-plain colored"
     },
     {
       "name":"SQLite3",
@@ -68,7 +95,7 @@ export class SkillsComponent {
     },
     {
       "name":"MongoDB",
-      "icon": "devicon-mongodb-plain"
+      "icon": "devicon-mongodb-plain colored"
     },
     {
       "name":"Cassandra",
@@ -76,7 +103,7 @@ export class SkillsComponent {
     },
     {
       "name":"PostgreSQL",
-      "icon": "devicon-postgresql-plain"
+      "icon": "devicon-postgresql-plain colored"
     }
   ];
 }
