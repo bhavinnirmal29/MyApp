@@ -1,19 +1,19 @@
 <div class="container" style="margin-top:100px">
-    <h2 class="mb-4" style="margin-top:90px;"></h2>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4" *ngFor="let project of projects">
-        <div class="card h-100 card-img-top">
-          <img src="{{ project.imageUrl }}" class="card-img-top" alt="Project Image">
-          <div class="card-body">
-            <h5 class="card-title">{{ project.name }}</h5>
-            <p class="card-text">{{ project.description }}</p>
-          </div>
-          <div class="card-footer">
-            <a href="{{ project.githubLink }}" class="btn btn-primary mr-2" target="_blank">GitHub</a>
-          </div>
+  <h2 class="mb-4" style="margin-top:90px;"></h2>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let project of projects">
+      <div class="card h-100 card-img-top">
+        <img src="{{ project.imageUrl }}" class="card-img-top img-fluid" alt="Project Image">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.name }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+        </div>
+        <div class="card-footer">
+          <a href="{{ project.githubLink }}" class="btn btn-primary mr-2" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
   </div>
+</div>
 <app-footer></app-footer>
 <router-outlet></router-outlet>
