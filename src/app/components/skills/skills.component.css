@@ -16,3 +16,42 @@
   .skill i {
     margin-right: 5px;
   }
+
+  /* skills.component.css */
+.card {
+    margin-bottom: 20px;
+    animation: slideIn 0.5s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .gradient-bg {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,1));
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hover-effect {
+    transition: transform 0.3s;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.01);
+  }
+
+  @keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
