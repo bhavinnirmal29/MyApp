@@ -68,18 +68,34 @@
   </div>
 <div class="row">
 <ng-container *ngFor="let skill of tech_skills; let last = last">
-  <div class="col-lg-1 col-md-4 col-sm-6 col-xs-12">
+  <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
     <div class="card rounded mb-2">
       <div class="card-body gradient-bg">
         <i class="{{ skill.icon }}" style="font-size: 50px;"></i>
         <br/>
         <span>{{ skill.name }}</span>
       </div>
+      
     </div>
   </div>
   <!-- Add ngIf condition to exit loop after the last iteration -->
   <div *ngIf="last"></div>
 </ng-container>
+<ng-container *ngFor="let skill of other_Skills; let last = last">
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+      <div class="card rounded mb-2">
+        <div class="card-body gradient-bg">
+            <img width="48" height="48" src="{{skill.icon}}" alt="{{skill.alt}}"/>
+          <br/>
+          <span>{{ skill.name }}</span>
+        </div>
+        
+      </div>
+    </div>
+    <!-- Add ngIf condition to exit loop after the last iteration -->
+    <div *ngIf="last"></div>
+  </ng-container>
+
 </div>
 </div>
 <app-footer></app-footer>

@@ -108,34 +108,60 @@ export class SkillsComponent {
   ];
 
   tech_skills = [
-    { name: 'Microsoft Power Platform', icon: 'devicon-microsoft-plain' },
-    { name: 'Power Apps', icon: 'devicon-powerapps-plain' },
-    { name: 'Canvas Apps', icon: 'devicon-canvas-plain' },
-    { name: 'Dynamics 365 Plugins', icon: 'devicon-dynamics-plain' },
-    { name: 'Workflows', icon: 'devicon-workflow-plain' },
-    { name: 'Customization and Configuration', icon: 'devicon-customization-plain' },
-    { name: 'Power Automate Flows', icon: 'devicon-powerautomate-plain' },
     { name: 'Microsoft Azure', icon: 'devicon-azure-plain' },
-    { name: 'Azure DevOps', icon: 'devicon-azuredevops-plain' },
-    { name: 'Azure Data Factory', icon: 'devicon-azuredatafactory-plain' },
-    { name: 'Azure Functions', icon: 'devicon-azurefunctions-plain' },
-    { name: 'Azure Logic Apps', icon: 'devicon-azurelogicapps-plain' },
-    { name: 'Azure Service Bus', icon: 'devicon-azureservicebus-plain' },
-    { name: 'CI/CD Pipelines', icon: 'devicon-cicd-plain' },
-    { name: 'SharePoint', icon: 'devicon-sharepoint-plain' },
-    { name: 'ServiceNow', icon: 'devicon-servicenow-plain' },
-    { name: 'Power BI', icon: 'devicon-powerbi-plain' },
-    { name: 'Microsoft 365', icon: 'devicon-microsoft365-plain' },
+    { name: 'Azure DevOps', icon: 'devicon-azuredevops-plain colored' },
     { name: 'Linux', icon: 'devicon-linux-plain' },
-    { name: 'Docker', icon: 'devicon-docker-plain' },
-    { name: 'Visual Studio', icon: 'devicon-visualstudio-plain' },
-    { name: 'NetBeans', icon: 'devicon-netbeans-plain' },
+    { name: 'Docker', icon: 'devicon-docker-plain colored' },
+    { name: 'Visual Studio', icon: 'devicon-visualstudio-plain colored' },
     { name: 'Eclipse', icon: 'devicon-eclipse-plain' },
-    { name: 'VSCode', icon: 'devicon-vscode-plain' },
-    { name: 'Git', icon: 'devicon-git-plain' },
+    { name: 'VSCode', icon: 'devicon-vscode-plain colored' },
+    { name: 'Git', icon: 'devicon-git-plain colored' },
     { name: 'GitHub', icon: 'devicon-github-plain' },
-    { name: 'GitHub Pages', icon: 'devicon-githubpages-plain' },
-    { name: 'GitHub Actions', icon: 'devicon-githubactions-plain' },
-    { name: 'Workflows', icon: 'devicon-workflow-plain' },
+    { name: 'GitHub Actions', icon: 'devicon-githubactions-plain colored' },
+    // { name: 'Workflows', icon: 'devicon-workflow-plain' },
+    
+  ];
+
+  other_Skills = [
+       { 
+        name: 'Microsoft Power Platform', 
+        icon: 'https://img.icons8.com/fluency/48/microsoft-power-apps.png',
+        alt: "Microsoft Power Platform"
+        },
+       { 
+        name: 'Dynamics 365', 
+        icon: 'https://img.icons8.com/fluency/48/microsoft-dynamics-365.png',
+        alt: "Dynamics 365"
+       },
+       { 
+        name: 'Power Automate',
+        icon: 'https://img.icons8.com/fluency/48/microsoft-power-automate-2020.png',
+        alt: "Power Automate"
+       },
+       { 
+        name: 'Azure Active Directory', 
+        icon: 'https://img.icons8.com/fluency/48/azure-active-directory.png',
+        alt:'Azure Active Directory'
+       },
+      {
+        name: 'Azure Service Bus',
+        icon: 'https://img.icons8.com/color/48/azure-service-bus--v1.png',
+        alt: 'Azure Service Bus'
+      },
+      {
+        name: 'SharePoint',
+        icon: 'https://img.icons8.com/fluency/48/microsoft-sharepoint-2019.png',
+        alt: 'SharePoint'
+      },
+      {
+        name: 'Power BI',
+        icon: 'https://img.icons8.com/color/48/power-bi-2021.png',
+        alt: 'Power BI'
+      },
+      {
+        name:'Microsoft 365',
+        icon:'https://img.icons8.com/fluency/48/microsoft-365.png',
+        alt: 'Microsoft 365'
+      }
   ];
 }
