@@ -14,6 +14,7 @@ import { ProjectsModuleModule } from './modules/projects-module/projects-module.
 import { QualificationsComponent } from './components/qualifications/qualifications.component';
 import { LoaderComponent } from './components/loader/loader.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ThankYouComponent } from './components/thank-you/thank-you.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     ProjectsComponent,
     QualificationsComponent,
     LoaderComponent,
-    SkillsComponent
+    SkillsComponent,
+    ThankYouComponent
   ],
   imports: [
     BrowserModule,
