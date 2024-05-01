@@ -73,6 +73,10 @@ export class SkillsComponent {
     {
       "icon": "devicon-dot-net-plain",
       "name": "ASP.Net"
+    },
+    {
+      "icon":"devicon-ruby-plain-wordmark colored",
+      "name": "Ruby on Rails"
     }
     
   ];
